@@ -1,5 +1,14 @@
-# Go to TodoHub
-https://hindrav.github.io/TodoHub/
+# TodoHub
+
+TodoHub is a productivity app for everyone to create todo's.
+
+It is part of my internship as a frontend specialization student.
+
+In this practice I've favored the use of state, react context, I've created my own hook for data persistence in local storage, I also learned to use react portals but above all, I had a lot of fun.
+
+### You can access the app through the following link:
+### https://hindrav.github.io/TodoHub/
+
 
 # Getting Started with Create React App
 
