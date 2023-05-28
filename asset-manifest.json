@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/TodoHub/static/css/main.383bba4f.css",
+    "main.js": "/TodoHub/static/js/main.1c0f12a8.js",
+    "static/js/787.c5d98223.chunk.js": "/TodoHub/static/js/787.c5d98223.chunk.js",
+    "static/media/ORIOND.woff": "/TodoHub/static/media/ORIOND.f3a297b1878e3b84e92a.woff",
+    "index.html": "/TodoHub/index.html",
+    "main.383bba4f.css.map": "/TodoHub/static/css/main.383bba4f.css.map",
+    "main.1c0f12a8.js.map": "/TodoHub/static/js/main.1c0f12a8.js.map",
+    "787.c5d98223.chunk.js.map": "/TodoHub/static/js/787.c5d98223.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.383bba4f.css",
+    "static/js/main.1c0f12a8.js"
+  ]
+}
