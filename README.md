@@ -1,6 +1,6 @@
 # TodoHub
 
-TodoHub is a productivity app for everyone to create todo's.
+A productivity app for everyone to create todo's.
 
 It is part of my internship as a frontend specialization student.
 
