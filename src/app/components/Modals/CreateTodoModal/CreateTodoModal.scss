@@ -1,0 +1,20 @@
+@import './../../../assets/scss/main.scss';
+
+.modal-backdrop{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.7);
+    display: grid;
+    place-items: center;
+}
+
+.modal{
+    width: 30rem;
+    height: fit-content;
+    background: white;
+    border-radius: 1rem;
+}
+

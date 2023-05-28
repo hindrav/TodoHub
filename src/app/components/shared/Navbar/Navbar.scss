@@ -1,0 +1,18 @@
+@import "../../../assets/scss/main.scss";
+
+.nav{
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    justify-content: center;
+    & p{
+       font-family: "oed";
+        font-size: 5rem;
+        &:nth-child(2){
+            color: $primary;
+            background: $secondary;
+            border-radius: .4rem;
+            padding: 1rem .5rem;
+        }
+    }
+}

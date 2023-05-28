@@ -1,0 +1,63 @@
+@import './../../../assets/scss/main.scss';
+
+.form{
+    width: 100%;
+    %-container{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        place-items: center;
+        align-items: center;
+    }
+    &-header{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        & label{
+            margin: 2rem 0 ;
+            text-align: center;
+            font-family: "oed";
+            font-size: 1.9rem;
+            color: #000;
+        }
+        & textarea{
+            resize: none;
+            font-family: "oed";
+        }
+    }
+    &-footer{
+        width: 100%;
+        height: 100%;
+        margin: 3rem 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    &-cancelTodo, &-addTodo{
+        width: 9rem;
+        height: 100%;
+        margin: 0 1rem;
+        padding: 1rem;
+        font-size: 1.5rem;
+        font-weight: 600;
+        border: transparent;
+        border-radius: .3rem;
+
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    &-cancelTodo{
+        background: rgb(217, 217, 217);
+        color: black;
+    }
+    &-addTodo{
+        background: $secondary;
+        color: white;
+    }
+}

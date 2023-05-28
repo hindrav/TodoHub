@@ -1,0 +1,42 @@
+@import "../../assets/scss/main.scss";
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addTask{
+    position: absolute;
+    bottom: 0;
+    width: 32rem;
+    color: white;
+    height: fit-content;
+    place-items: center;
+    margin-bottom: 2rem;
+    padding: 1rem 0;
+    font-family: "oed";
+    font-size: 3rem;
+    text-align: center;
+    border-radius: 1rem;
+    background: $secondary;
+    border-color: transparent;
+    z-index: 1;
+
+    &:hover{
+        cursor: pointer;
+        background: white;
+        color: $secondary;
+    }
+}
+
+.addText{
+    transform: rotate(45deg);
+    transition: transform .3s ease-in-out;
+
+}
+
+.removeText{
+    transform: rotate(90deg);
+    transition: transform .3s ease-in-out;
+}

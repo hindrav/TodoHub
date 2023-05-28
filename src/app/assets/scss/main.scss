@@ -1,0 +1,21 @@
+// Base
+@import "base/typography";
+
+// Libraries
+@import "libs/vars";
+@import "libs/mixins";
+
+
+.secondary-element{
+    color:$secondary;
+    margin: 0;
+}
+
+.advice{
+    width: 29rem;
+    font-family: "oed";
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    color: $secondary;
+    text-align: center;
+}
